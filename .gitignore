@@ -2,3 +2,7 @@
 old
 # 缓存配置
 thermal_settings.json
+
+# 缓存
+*.pyc
+__pycache__/

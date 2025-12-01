@@ -8,7 +8,7 @@ def main():
     # 切换到项目根目录
     os.chdir(current_dir)
     # 运行streamlit应用
-    subprocess.run([sys.executable, "-m", "streamlit", "run", "thermal_viewer.py"])
+    subprocess.run([sys.executable, "-m", "streamlit", "run", "app.py"])
 
 if __name__ == "__main__":
     main()
