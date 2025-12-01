@@ -1,0 +1,15 @@
+# 热成像RAW文件查看器与处理工具 - Python依赖
+
+# Web界面框架
+streamlit>=1.20.0
+
+# 科学计算和数组处理
+numpy>=1.23.0
+
+# 绘图和可视化
+matplotlib>=3.6.0
+
+# 注意事项：
+# 1. MJPEG到MP4转换功能需要FFmpeg，请参考README中的安装说明
+# 2. 建议在Python 3.10+环境下使用
+# 3. 安装命令: pip install -r requirements.txt
